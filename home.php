@@ -23,3 +23,9 @@ echo "<h1>". 'Hello, ' . $_SESSION['username']. "</h1>"
 
 
 ?>
+
+<a href='account.php'>Edit account</a> <br>
+<a href='password.php'>Change Password</a>
+<form action="auth.php" method="POST">
+    <input type="submit" name="logout" value="logout">
+</form>

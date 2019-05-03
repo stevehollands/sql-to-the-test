@@ -23,8 +23,6 @@
     unset($_SESSION['message']);
     
     ?>
-
-
 </div>
 
 <?php endif ?>;
@@ -49,5 +47,6 @@
             
         </form>
         <div>
+            
     </body>
 </html>
